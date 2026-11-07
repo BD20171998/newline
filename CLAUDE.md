@@ -23,3 +23,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Never commit .env files or hardcoded secrets
 - Never suggest or execute destructive commands (rm -rf, DROP TABLE, force push) without explicit confirmation
 - Never read files outside of the project directory /Users/my_mac/Desktop/newline without first asking permission
+
+## Tools
+
+### Commands
+- `/todo` – Lists all TODO comments in the repo.  
+- `/lint` – Runs `npm run lint` and shows any lint errors.
+
+### Skills
+- `run-tests` – Executes `npm run test`. Trigger with `/run-tests` or by saying “run tests”.
