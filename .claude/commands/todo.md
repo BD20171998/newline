@@ -1,3 +1,5 @@
-Find all TODO comments in the codebase:
-!grep -R --line-number "TODO" .
-EOF
+# Find TODOs Command
+
+Search the whole repository for lines that contain “TODO” (case‑insensitive) and show the file path with line numbers:
+
+!grep -Rin --exclude-dir=node_modules --exclude-dir=.git "TODO" .
