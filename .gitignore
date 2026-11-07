@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Personal overrides – never commit
+CLAUDE.local.md
+.claude/settings.local.json
+
+# If you ever add other personal files, ignore them too
+.claude/*.local.*

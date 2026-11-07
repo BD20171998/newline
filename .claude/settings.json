@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.anthropic.com/claude-code/schema/settings.json",
+  "allow": [
+    "Bash(npm run *)",
+    "Bash(make *)",
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep"
+  ],
+  "deny": [
+    "Bash(rm -rf*)",
+    "Read(.env)",
+    "Read(secrets/)"
+  ]
+}
