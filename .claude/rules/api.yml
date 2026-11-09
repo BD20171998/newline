@@ -1,0 +1,7 @@
+---
+paths: ["src/api/", "src/handlers/"]
+---
+# API Conventions
+- Always return { data, error } shape
+- Use HTTP status codes correctly
+- Validate all input with Zod schemas

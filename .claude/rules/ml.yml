@@ -1,0 +1,7 @@
+---
+paths: ["src/ml/", "notebooks/"]
+---
+# ML Code Rules
+- Always set random seeds for reproducibility
+- Log all hyperparameters to W&B
+- Never hardcode dataset paths; use config files
